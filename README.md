@@ -11,4 +11,9 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 ## Learning objectives
 
 - Create an Azure Kubernetes Service cluster
+- Choose the best deployment options for your Pods
+- Expose Pods to internal and external network users
+- Configure SSL/TLS for Azure Kubernetes Service ingress
+- Monitor the health of an Azure Kubernetes Service cluster
+- Scale your application in an Azure Kubernetes Service cluster
 

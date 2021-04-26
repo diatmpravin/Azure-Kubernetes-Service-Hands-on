@@ -10,6 +10,7 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 
 ## Learning objectives
 
+- Create Required Infrastructure Application
 - Create an Azure Kubernetes Service cluster
 - Choose the best deployment options for your Pods
 - Expose Pods to internal and external network users
@@ -19,6 +20,9 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 
 ## Tasks
 
+- Create Resource Group 
+- Create Network Architecture
+  - Deploy Vnet
 - Use AKS to deploy a Kubernetes cluster.
 - Configure an Azure Container Registry to store application container images.
 - Deploy the three ratings application components.

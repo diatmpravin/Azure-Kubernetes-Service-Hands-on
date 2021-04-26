@@ -17,3 +17,16 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 - Monitor the health of an Azure Kubernetes Service cluster
 - Scale your application in an Azure Kubernetes Service cluster
 
+## Tasks
+
+- Use AKS to deploy a Kubernetes cluster.
+- Configure an Azure Container Registry to store application container images.
+- Deploy the three ratings application components.
+- Deploy the Fruit Smoothies website document database using Helm 3.
+- Deploy the Fruit smoothies RESTFul API using deployment manifests.
+- Deploy the Fruit smoothies website frontend using deployment manifests.
+- Deploy Azure Kubernetes ingress using Helm 3.
+- Configure SSL/TLS on the controller using cert-manager.
+- Configure Azure Monitor for containers to monitor the Fruit Smoothies website deployment.
+- Configure cluster autoscaler and horizontal pod autoscaler for the Fruit Smoothies cluster.
+

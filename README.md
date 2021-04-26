@@ -8,6 +8,11 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 
 ![image](https://docs.microsoft.com/en-us/learn/modules/aks-workshop/media/02-arch.svg)
 
+## Network Architecture
+
+![image](https://user-images.githubusercontent.com/1097968/116126231-107cfd80-a6cf-11eb-9d63-9a707024841a.png)
+
+
 ## Learning objectives
 
 - Create Required Infrastructure Application

@@ -2,7 +2,11 @@
 
 In this Hands-on, we'll go through tasks to deploy a multicontainer application to Kubernetes on Azure Kubernetes Service (AKS).
 
-This Hands-on Lab is taken from this Azure Workshop but we will do this in more realistic way of implementation. 
+## Application architecture
+
+Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Service (AKS), that runs the Fruit Smoothies ratings website. Below is the application Architecture and Azure service we are going to use. 
+
+![image](https://user-images.githubusercontent.com/1097968/116052473-519af080-a682-11eb-88bf-0d4ad6d513f3.png)
 
 ## Learning objectives
 

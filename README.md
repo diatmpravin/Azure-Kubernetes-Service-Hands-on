@@ -23,6 +23,12 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 - Create Resource Group 
 - Create Network Architecture
   - Deploy Vnet
+  - Create Front End Subnet
+  - Create App Subnet
+  - Create Backend Subnet
+  - Create FE NSG
+  - Create APP NSG
+  - Create BE NSG
 - Use AKS to deploy a Kubernetes cluster.
 - Configure an Azure Container Registry to store application container images.
 - Deploy the three ratings application components.

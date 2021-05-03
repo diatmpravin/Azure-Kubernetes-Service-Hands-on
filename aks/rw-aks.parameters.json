@@ -1,1 +1,33 @@
-a
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "RW-RG-DEV"
+        },
+        "dnsPrefix": {
+            "value": "rw"
+        },
+        "builtInRoleType":{
+            "value": "Contributor"
+        },
+        "existingServicePrincipalObjectId": {
+            "value": "xxxxxx"
+        },
+        "existingServicePrincipalClientId": {
+            "value": "xxxxxx"
+        },
+        "existingServicePrincipalClientSecret": {
+            "value": "xxxxxxx"
+        },
+        "existingVirtualNetworkName": {
+            "value": "multiTierVNet"
+        },
+        "existingVirtualNetworkResourceGroup": {
+            "value": "RW-RG-DEV"
+        },
+        "existingSubnetName": {
+            "value": "AppSubnet"
+        }
+    }
+}

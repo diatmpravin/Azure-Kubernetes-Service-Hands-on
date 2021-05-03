@@ -45,3 +45,21 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 - Configure Azure Monitor for containers to monitor the Fruit Smoothies website deployment.
 - Configure cluster autoscaler and horizontal pod autoscaler for the Fruit Smoothies cluster.
 
+### Deploy AKS with Advance Networking
+
+Prior to deploying AKS using this ARM template, the following resources need to exist:
+
+- Azure Vnet, including a subnet of sufficient size
+- Service Principal
+
+The following Azure CLI command can be used to create a Service Principal:
+
+NOTE: The Service Principal Client Id is the Same as the App Id
+
+`
+az ad sp create-for-rbac -n "spn_name" --skip-assignment
+az ad sp show --id <The AppId from the create-for-rbac command> --query objectId
+`
+
+Please note that using the 'create-for-rbac' function would assign the SPN the 'Contributor' role on subscription level, which may not be appropriate from a security standpoint.
+

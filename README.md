@@ -58,6 +58,9 @@ NOTE: The Service Principal Client Id is the Same as the App Id
 
 `
 az ad sp create-for-rbac -n "spn_name" --skip-assignment
+`
+
+`
 az ad sp show --id <The AppId from the create-for-rbac command> --query objectId
 `
 

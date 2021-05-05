@@ -37,6 +37,14 @@ Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Serv
 - Use AKS to deploy a Kubernetes cluster.
 - Configure an Azure Container Registry to store application container images.
 - Deploy the three ratings application components.
+  - Rating REST API - git clone https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-api.git
+  - Rating Web Site - git clone https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-web.git
+  - Build Container Image & pushes the resulting image to the container registry
+    - az acr build --resource-group $RESOURCE_GROUP --registry $ACR_NAME --image ratings-api:v1 .
+  - Verify the Image
+    - az acr repository list --name $ACR_NAME --output table
+  - Configure the AKS cluster to authenticate to the container registry
+    - az aks update --name $AKS_CLUSTER_NAME --resource-group $RESOURCE_GROUP --attach-acr $ACR_NAME
 - Deploy the Fruit Smoothies website document database using Helm 3.
 - Deploy the Fruit smoothies RESTFul API using deployment manifests.
 - Deploy the Fruit smoothies website frontend using deployment manifests.
